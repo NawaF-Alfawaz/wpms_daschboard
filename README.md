@@ -1,16 +1,21 @@
 # wpms_daschboard
 
-A new Flutter project.
+In this project, we developed a database system for a package delivery company. Our product able to manage and maintain related information in a database and support the functionality outlined here.
 
-## Getting Started
+Design a database system for a worldwide package delivery company (e.g., SMSA, DHL or FedEX). The database must be able to keep track of customers (who ship packages) and customers (who receive packages); some customers may do both. The detailed information of company employees is maintained in the database. The company receives and ships packages and maintains up-to-date information on the processing and current location of each shipped package as follows: • Shipped packages can be characterized by package number (unique), weight, dimensions, insurance amount, destination, and final delivery date. • Each package must be identifiable and trackable, so the database must be able to store the location of the package and its history of locations. • Locations include trucks, planes, airports, and warehouses and are uniquely identifiable. • Shipped packages are received into the system at a single retail center. Retail centers are characterized by their type, unique ID, and address. • Shipped packages make their way to their destination via one or more standard the company transportation events (i.e., flights, truck deliveries). These transportation events are characterized by a unique schedule number, type (e.g, flight, truck), and the delivery route.
 
-This project is a starting point for a Flutter application.
+The list of requirements with constraints/business rules are as follows: a) The packages are categorized as Regular, Fragile, Liquid, Chemical etc. b) The status of the packages is as follows in transit, delivered, lost or damaged. c) The value and insurance amount of the package is maintained as well as the payment to the company based on weight as cost for delivering the package. d) Any company employee or customer should be able to search their packages by their ID, category, city and delivery date. e) The movement history including the current place of the package in transit must be produced upon request. f) The system should be able to retrieve information of packages not delivered, damaged or lost. g) The system should identify fines for delayed packages. For lost or damaged packages, the insurance amount is delivered to the customer instead of the package. h) The system should be able to send notifications whenever the packages become available for delivery as well as if they are delayed. i) Each package will have a unique barcode that the system will be able to read.
 
-A few resources to get you started if this is your first Flutter project:
+![WhatsApp Image 2023-01-19 at 11 00 34 AM (3)](https://user-images.githubusercontent.com/63208501/213923115-16f459fb-f285-43bf-aee3-e40231c3ff4f.jpeg)
+![WhatsApp Image 2023-01-19 at 11 00 31 AM (1)](https://user-images.githubusercontent.com/63208501/213923127-9c842b3c-3e6d-414f-9eda-8af5266b6bc9.jpeg)
+![WhatsApp Image 2023-01-19 at 11 00 31 AM (2)](https://user-images.githubusercontent.com/63208501/213923133-c6130616-a44b-4ed5-bae4-3fdb7f22212a.jpeg)![WhatsApp Image 2023-01-19 at 11 00 32 AM (1)](https://user-images.githubusercontent.com/63208501/213923139-da6b5935-ebbc-41fc-bf96-d09c06d7e823.jpeg)
+![WhatsApp Image 2023-01-19 at 11 00 33 AM (1)](https://user-images.githubusercontent.com/63208501/213923145-8914a946-bdfe-48cd-9b65-8612c3852c79.jpeg)
+![WhatsApp Image 2023-01-19 at 11 00 33 AM (2)](https://user-images.githubusercontent.com/63208501/213923147-130eb0d6-3d58-4174-89ee-91d376002224.jpeg)
+![WhatsApp Image 2023-01-19 at 11 00 32 AM (2)](https://user-images.githubusercontent.com/63208501/213923150-1286fa2c-9d14-4382-8b04-86a126e004b5.jpeg)
+![WhatsApp Image 2023-01-19 at 11 00 32 AM (3)](https://user-images.githubusercontent.com/63208501/213923153-4f57bc60-ae5d-4808-9f8a-40116a967ea0.jpeg)
+![WhatsApp Image 2023-01-19 at 11 00 32 AM](https://user-images.githubusercontent.com/63208501/213923154-94020c66-f733-498b-876f-34157084cdd8.jpeg)![WhatsApp Image 2023-01-19 at 11 00 34 AM (2)](https://user-images.githubusercontent.com/63208501/213923157-c289a3c5-3d3e-4fbe-a832-e61ec75a7a7a.jpeg)
+![WhatsApp Image 2023-01-19 at 11 00 33 AM](https://user-images.githubusercontent.com/63208501/213923159-14d821d1-33e9-4d66-89cf-ed82e05eadba.jpeg)![WhatsApp Image 2023-01-19 at 11 00 34 AM](https://user-images.githubusercontent.com/63208501/213923161-bde66c72-7b6e-41e8-ac1f-8a605eb55d87.jpeg)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![WhatsApp Image 2023-01-19 at 11 00 34 AM (1)](https://user-images.githubusercontent.com/63208501/213923160-0715d2a0-1fe3-4e58-9a1f-0ca99057a0db.jpeg)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
